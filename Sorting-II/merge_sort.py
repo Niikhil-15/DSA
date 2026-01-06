@@ -19,7 +19,8 @@ def merge(arr, low, mid, high):
         right+=1
     arr[low:high+1] = temp
 
-
+# Time Complexity - O(N*log₂N) - O(N) from merge() and log₂N from merge-sort recursion as array is getting divided by 2 repeatedly.
+# Space Complexity - O(N) from temp in merge()
 
 def merge_sort(arr, low, high):
     if low == high:
@@ -35,4 +36,4 @@ def merge_sort(arr, low, high):
 arr = [1,5,3,7]
 
 merge_sort(arr,0,len(arr)-1)
-print(*arr)
+print(arr)
