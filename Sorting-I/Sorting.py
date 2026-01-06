@@ -32,6 +32,7 @@ def bubble_sort(arr):
 # print(arr)
 
 # Insertion Sort
+# Time Complexity - Worst Case and Average Case - O(N²) but Best case id  O(N)
 
 def insertion_sort(arr):
     for i in range(len(arr)):
