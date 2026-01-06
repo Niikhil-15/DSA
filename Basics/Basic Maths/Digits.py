@@ -72,7 +72,8 @@ def all_divisor_optimal(num):
             all_div_list.append(i)
             if ((num//i) != i):
                 all_div_list.append(num//i)
-    return sorted(all_div_list)
+    all_div_list.sort()
+    return all_div_list
 
 def check_prime(num):
     all_div_list = all_divisor_optimal(num)
@@ -114,7 +115,7 @@ def find_gcd_euclid(num1, num2):
             num2 %= num1
     return num1 if num2 ==0 else num2
     
-print(find_gcd_euclid(10,20))
+# print(find_gcd_euclid(10,20))
 
 
 # print(reverse_digits(123))
@@ -123,6 +124,6 @@ print(find_gcd_euclid(10,20))
 # print(check_pallin(1211))
 # print(check_armstrong(153))
 # print(all_divisor(36))
-# print(all_divisor_optimal(72))
+print(all_divisor_optimal(72))
 # print(check_prime(19))
 # print(find_gcd(10,20))
