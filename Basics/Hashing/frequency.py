@@ -14,11 +14,12 @@ def count(arr):
         for j in arr:
             if i == j:
                 i_count+=1
-                visited.append(i)
+        visited.append(i)
         print(i, i_count)
+    
 
 
-count(arr)
+# count(arr)
 
 
 # using dictionary
@@ -47,7 +48,7 @@ def hashing(num, arr):
         hash[i]+=1
     # print(hash)
     return hash[num]
-# print(hashing(1,arr))
+print(hashing(4,arr))
 
 
 # Time Complexity - O(N) effectively as O(N) also comes from loop adding both gives - O(2N) but can be written as O(N) 
@@ -66,7 +67,7 @@ def min_and_max_freq(arr):
         # print(M,m)
     return M,m
 
-print(min_and_max_freq(arr)) 
+# print(min_and_max_freq(arr)) 
 
 
 
