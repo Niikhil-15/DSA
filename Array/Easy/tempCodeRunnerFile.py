@@ -1,0 +1,2 @@
+
+print(optimal(arr1))
