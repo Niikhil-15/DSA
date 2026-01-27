@@ -48,7 +48,7 @@ def hashing(num, arr):
         hash[i]+=1
     # print(hash)
     return hash[num]
-print(hashing(4,arr))
+# print(hashing(4,arr))
 
 
 # Time Complexity - O(N) effectively as O(N) also comes from loop adding both gives - O(2N) but can be written as O(N) 
