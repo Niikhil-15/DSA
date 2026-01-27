@@ -97,9 +97,6 @@ def optimal(arr):
                 ssmallest = i
         return ssmallest
      
-
-
-
     slargest = second_largest(arr)
     ssmallest = second_smallest(arr)
 
@@ -108,7 +105,8 @@ def optimal(arr):
 
 arr = [1,3,2,4,53,25,6232,22,322,7,]
 arr1=[1]
+
 # better(arr)
-print(optimal(arr1))
+# print(optimal(arr1))
 # print(brute(arr1))
 
