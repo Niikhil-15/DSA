@@ -1,2 +1,0 @@
-
-print(optimal(arr1))
